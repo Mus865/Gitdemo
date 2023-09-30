@@ -1,4 +1,5 @@
-name: "shell commands"
+name: shell commands
+
 on: [push]
 
 jobs:
@@ -9,8 +10,8 @@ jobs:
            uses: actions/checkout@v3
          - name: echo string
            run: echo "hello world"
-         - name: "multi string"
-         - run: |
+         - name: multi string
+           run: |
              node -v
              npm -v
 
