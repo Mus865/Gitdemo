@@ -1,14 +1,14 @@
 provider "aws" {
-    region = "us-east-1"
-  
+  region = "us-east-1"
+
 }
 
 resource "aws_vpc" "test" {
-    cidr_block = "10.0.0.0/16"
+  cidr_block = "10.0.0.0/16"
 
-    tags = {
-      name = "action test"
-    }
-  
+  tags = {
+    name = "action-test"
+  }
+
 }
-  
+
