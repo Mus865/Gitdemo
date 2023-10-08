@@ -1,5 +1,5 @@
 {
-  "name": "Gitdemo",
+  "name": "semantic-release",
   "version": "1.0.1",
 "devDependencies": {
     "@semantic-release/git": "^10.0.1",
